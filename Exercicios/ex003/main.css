@@ -1,0 +1,10 @@
+.jj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jj-video{
+    display: flex;
+    gap: 20px;
+}
