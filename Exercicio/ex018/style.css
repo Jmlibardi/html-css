@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: rgb(139, 139, 206);
+}
+
+h1,h2{
+    font-family: charm;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-family: oswald;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+main{
+    background-color: black;
+    width: 500px;
+   padding: 10px;
+   margin: auto;
+}
+
+hr{
+    margin-top: 50px;
+}

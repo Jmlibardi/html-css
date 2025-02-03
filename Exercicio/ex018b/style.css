@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Super Pancake';
+    src: url('fontes/Super\ Pancake.ttf');
+    }
+
+h1{
+    font-family: 'Super Pancake';
+    font-size: 3em;
+ }

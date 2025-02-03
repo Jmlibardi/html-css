@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+
+        .nao::after{
+            content: ' [Link]';
+        }
+
+        .gosto{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" class="gosto">Youtube</a>
+        <li><a href="https://www.instagram.com/" target="_blank" class="nao">Instagram</a>
+        <li><a href="https://github.com/" target="_blank" class="nao">Github</a>
+    </ul>
+</body>
+</html>
